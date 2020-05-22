@@ -1,0 +1,20 @@
+### LIST ALL EMPLOYEES
+
+GET http://localhost:3000/employees/
+
+### DELETES AN EMPLOYEE
+
+DELETE http://localhost:3000/employees/4
+
+### LIST SPECIFIC EMPLOYEE
+
+GET http://localhost:3000/employees/9
+
+### CREATE A NEW EMPLOYEE
+
+POST http://localhost:3000/employees/create
+
+### UPDATE A NEW POST 
+
+PUT http://localhost:3000/employees/update/9
+
